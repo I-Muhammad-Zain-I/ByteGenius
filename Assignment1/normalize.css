@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1rem;
+}
+
+.header {
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    border-bottom: 2px solid #018ff56e;
+    background-color: #0E1F25;
+
+    display: flex;
+    gap: 10rem;
+}
+.logo {
+    width: 200px;
+    padding-right: 15px;
+    border-right: 2px solid #F2133B;
+}
+.logo img {
+    display: block;
+    width: 100%;
+}
+.navbar {
+    width: 60%;
+}
+.nav-links {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+    display: flex;
+    gap: 3rem;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+.active-link {
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #F2133B;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #192D36;
+}
+.info-foot {
+    margin:  0 auto;
+    padding: 50px;
+    color: #9EE9F4;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #192D36;
+}
+.foot-1 address {
+    text-align: center;
+}
+.foot-2 {
+    text-align: left;
+}
+.foot-nav {
+    margin-top: 10px;
+}
+.foot-links {
+    list-style-type: none;
+    margin: 5px 0;
+}
+.foot-links li a {
+    text-decoration: none;
+    color: #9EE9F4;
+}
+.foot-2 p, .foot-3 p {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    color: white;
+    border-bottom: 2px solid #F2133B;
+}
+.foot-3 img {
+    margin-top: 10px;
+}
+.policy-foot {
+    padding: 10px 50px;
+    background-color: #0F2027;
+    border-top: 1px solid #406f85;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.policy-links {
+    list-style-type: none;
+    letter-spacing: 2px;
+
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.policy-links li a {
+    text-decoration: none;
+    color: #a6d2f1;
+}
+.rights {
+    color: white;
+} 

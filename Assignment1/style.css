@@ -1,0 +1,161 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.landing {
+    height: 100vh;
+    padding: 0 2rem;
+    justify-content: center;
+    background-image: url('./images/landingBack.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.tagline {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.tag-description {
+    text-align: justify;
+    line-height: 1.3rem;
+    color: white;
+}
+.h-blue {
+    color: #F2133B;
+}
+.clip-f {
+    background-image: url('./images/blueBack.jpg');
+    background-position: bottom center;
+    object-fit: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+
+
+.stack {
+    background-image: linear-gradient(to right,#4b97df, #1f73e0,#09024b);
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+.stack h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+.stack-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.s-col {
+    width: 33%;
+    color: white;
+}
+.st-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.st-class img {
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+}
+.st-tech {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* 
+.perks {
+    height: 100vh;
+    margin-top: 20px;
+}
+.perk-head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perk-head h1 {
+    font-size: 2.5rem;
+    width: 50%;
+    margin-bottom: 1rem;
+    padding-bottom: 5px;
+    border-radius: 20%;
+    border-bottom: 4px solid #018FF5;
+}
+.perk-head p:nth-of-type(1){
+    font-size: 1.5rem;
+}
+.perk-sec {
+    width: 80%;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+.p-col-1, .p-col-2, .p-col-3 {
+    width: 33%;
+}
+.perk-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 2px 2px 5px #a0a9b4;
+}
+.perk-card h2 {
+    color: #333;
+}
+.perk-card p {
+    font-size: 0.9rem;
+    color: #a0a9b4;
+}
+.p-visual {
+    align-self: flex-end;
+    margin-top: 10px;
+}
+.p-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.loyalty {
+    border-color: #008779;
+}
+.testing {
+    border-color: #F1B3A9;
+}
+.training {
+    border-color: #0FC5E3;
+}
+.community {
+    border-color: #FFB919;
+} */

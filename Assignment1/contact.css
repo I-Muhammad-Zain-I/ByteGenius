@@ -1,0 +1,81 @@
+body {
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)), url('./images/contactoverlay.jpg');
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 120px;
+    color: white;
+  
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.details-part {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.det-img {
+    width: 32px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    max-width: 100%;
+}
+.inp {
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+}
+textarea {
+    font-family: 'Roboto';
+    max-width: 100%;
+    resize: none;
+    border-radius: 5px;
+}
+::placeholder {
+    color: white;
+}
+
+.submit {
+    padding: 10px 0;
+    background-color: white;
+    border: 2px solid;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
